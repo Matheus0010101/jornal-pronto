@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: #d3d3d3;
+    align-items: center;
+    font-size: 4vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.conteiner-um{
+    display: flex;
+    align-items: center;
+}
+
+#img-um{
+    height: 50vh;
+    padding: 10vh;
+}
+
+#mariano{
+    flex-direction: column;
+    font-size: 3vh;
+    padding: 5vh;
+    text-align: justify;
+}
+
+.conteiner-dois{
+    display: flex;
+    background-color: #d3d3d3;
+    align-items: center;
+}
+#matheus{
+    flex-direction: column;
+    font-size: 3vh ;
+    padding: 5vh;
+    text-align: justify;
+}
+
+#img-dois{
+    display: flex;
+    height: 60vh;
+    padding: 8vh;
+}
+
+.conteiner-tres{
+    display: flex;
+    align-items: center;
+}
+
+#img-tres{
+    height: 50vh;
+    padding: 10vh;
+}
+
+#lorenzo{
+    font-size: 3vh;
+    text-align: justify;
+    padding: 5vh;
+}
+
+.conteiner-quatro{
+    display: flex;
+    background-color: #d3d3d3;
+    align-items: center;
+}
+
+#otavio{
+    font-size: 3vh;
+    padding: 5vh;
+    text-align: justify;
+}
+
+#img-quatro{
+    height: 60vh;
+    padding: 10vh;
+}
+
+
+footer{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    align-items: center;
+    font-size: 2vh;
+}

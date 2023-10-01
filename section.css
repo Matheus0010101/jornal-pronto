@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d3d3d3;
+}
+
+.logo-menor{
+    display: flex;
+    padding-left: 5vw;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    font-size: 5vh;
+    text-decoration: none;
+    color: black;
+    padding-right: 5vw;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 8vh;
+    font-size: 4.5vh;
+    align-items: center;
+    background-color: #bab9b9;
+    box-shadow: 10px 5px 5px gray;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 3vh;
+}
+.titulo_um{
+    display: flex;
+    justify-content: center;
+    font-size: 8vh;
+    padding: 4vh;
+}
+
+.titulo_dois{
+    display: flex;
+    justify-content: center;
+    font-size: 8vh;
+    padding: 4vh;
+
+}
+.titulo_tres{
+    display: flex;
+    justify-content: center;
+    font-size: 8vh;
+    padding: 4vh;
+
+}
+.caixa{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imagem_cultura{
+    display: flex;
+    height: 36vh;
+}
+
+.img-artes{
+    height: 36vh;
+}
+
+#img_um{
+    height: 36vh;
+}
+
+.caixa-p{
+    width: 75vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+    background-color: #d3d3d3;
+    text-decoration: none;
+    color:black;
+
+}
+.sessao_primeiro{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;    
+    padding: 0.1vh;
+    box-shadow: 10px 5px 5px gray;
+}
+.img_um{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 36vh;
+    width: 26vw;
+}
+
+footer{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    align-items: center;
+    font-size: 2vh;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
